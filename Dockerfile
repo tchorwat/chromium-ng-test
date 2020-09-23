@@ -5,7 +5,7 @@ ENV CHROME_BIN=/usr/lib/chromium/chromium
 COPY ./entrypoint.sh /root/entrypoint.sh
 
 # Install latest Chromium package & @angular/cli
-RUN chmod +x /root/entrypoint.sh \
+RUN chmod 777 /root/entrypoint.sh \
   && apt -y update \
   && apt -y install chromium chromium-l10n \
   && mkdir -p /root/.npm \
