@@ -10,14 +10,14 @@ Docker image with @angular/cli, chromium headless browser for testing purpose. Y
 
 To invoke test `ng test` on your sources located in your current directory run:
 ```
-docker run -t -v (pwd)/:data/src tchorwat/chromium-ng-test
+docker run -t --rm -v $(pwd):data/src/ tchorwat/chromium-ng-test
 ```
 This will also install your `package.json` dependencies with `npm ci`.
 
 You can also invoke any other commands, by example:
 
 ```
-docker run -it -v (pwd)/:data/src tchorwat/chromium-ng-test bash
+docker run -it --rm tchorwat/chromium-ng-test bash
 ```
 
 To use specific chromium version provide it as a image tag with chromium version:
