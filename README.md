@@ -26,7 +26,7 @@ docker run -t --rm tchorwat/chromium-ng-test:83 chromium --version
 ```
 
 ## License
-This Docker image is built on node Docker images https://hub.docker.com/_/node. View [license information for Node.js](https://github.com/nodejs/node/blob/master/LICENSE) or [license information for the Node.js Docker project](. on )https://github.com/nodejs/docker-node/blob/master/LICENSE).
+This Docker image is built on node Docker images https://hub.docker.com/_/node. View [license information for Node.js](https://github.com/nodejs/node/blob/master/LICENSE) or [license information for the Node.js Docker project](https://github.com/nodejs/docker-node/blob/master/LICENSE).
 
 View [Chromiunm browser license](https://metadata.ftp-master.debian.org/changelogs//main/c/chromium/chromium_83.0.4103.116-1~deb10u3_copyright).
 
