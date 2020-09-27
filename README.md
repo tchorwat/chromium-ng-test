@@ -34,4 +34,4 @@ View [@angular/cli license](https://github.com/angular/angular-cli/blob/master/L
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
 
-View [**chromium-ng-test** project MIT license](./LICENSE)
+View [**chromium-ng-test** project MIT license](https://raw.githubusercontent.com/tchorwat/chromium-ng-test/master/LICENSE)
