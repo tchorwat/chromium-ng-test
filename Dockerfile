@@ -1,4 +1,6 @@
 FROM node:buster
+LABEL maintainer="tomasz@chorwat.pl"
+LABEL project="https://github.com/tchorwat/chromium-ng-test"
 
 ENV CHROME_BIN=/usr/lib/chromium/chromium
 
